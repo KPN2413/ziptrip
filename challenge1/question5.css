@@ -1,0 +1,56 @@
+/* Question 5: Method 1 - Flexbox */
+#container {
+  display: flex;
+  width: 100%;
+}
+
+#container .fixed {
+  width: 100px;
+  flex: 0 0 100px;
+}
+
+#container .expanding {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+#container .box {
+  box-sizing: border-box;
+}
+
+/* Question 5: Method 2 - CSS Grid */
+#container {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr) 100px;
+  width: 100%;
+}
+
+#container .box {
+  box-sizing: border-box;
+}
+
+/* Question 5: Method 3 - Float + calc */
+#container {
+  width: 100%;
+  overflow: hidden;
+}
+
+#container .left {
+  float: left;
+  width: 100px;
+}
+
+#container .right {
+  float: right;
+  width: 100px;
+}
+
+#container .middle {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: calc(100% - 200px);
+}
+
+#container .box {
+  box-sizing: border-box;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sample-1",
+    "title": "Complete developer assignment",
+    "description": "Finish Challenge 1 answers and Todo app implementation.",
+    "priority": "high",
+    "dueDate": "2026-06-29",
+    "completed": false,
+    "createdAt": "2026-06-28T10:00:00.000Z",
+    "updatedAt": "2026-06-28T10:00:00.000Z"
+  },
+  {
+    "id": "sample-2",
+    "title": "Push code to GitHub",
+    "description": "Upload frontend, backend, README and docs to a repository.",
+    "priority": "medium",
+    "dueDate": "2026-06-29",
+    "completed": false,
+    "createdAt": "2026-06-28T10:10:00.000Z",
+    "updatedAt": "2026-06-28T10:10:00.000Z"
+  }
+]
