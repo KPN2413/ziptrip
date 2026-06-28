@@ -85,15 +85,3 @@ http://localhost:5173
 - No authentication is added because it was not asked in the assignment.
 - The app is intentionally simple and focused on assignment requirements.
 
-## How to Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Complete Ziptrrip todo assignment"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-git push -u origin main
-```
-
-After pushing, paste the GitHub repository link in the completed assignment document.
